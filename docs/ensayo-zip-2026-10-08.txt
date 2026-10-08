@@ -1,0 +1,25 @@
+PLAYERS_BEFORE: There are 0 of a max of 15 players online: 
+START: Thu Oct  8 13:38:23 UTC 2026
+Filesystem                Size      Used Available Use% Mounted on
+/dev/sda3               214.6G     40.1G    163.5G  20% /
+Saving the game (this may take a moment!)Saved the game
+Automatic saving is now disabled
+ZIP_RC=0
+-rw-r--r--    1 root     root        3.1G Oct  8 08:41 /opt/quesoland/migracion/quesoland-ensayo-2026-10-08.zip
+PLAYERS_AFTER: There are 0 of a max of 15 players online: 
+RESTORE_SAVE_ON: Thu Oct  8 13:41:01 UTC 2026
+Automatic saving is now enabled
+=== UNZIP -t ===
+    testing: data/mods/ftb-library-fabric-2001.2.12.jar   OK
+    testing: data/mods/puffish_biome_dither-1.0.0-1.19.2-fabric.jar   OK
+    testing: data/mods/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar   OK
+    testing: data/mods/spawn-1.0.3-fabric.jar   OK
+    testing: data/mods/PickUpNotifier-v8.0.0-1.20.1-Fabric.jar.disabled   OK
+    testing: data/mods/ftb-teams-fabric-2001.3.2.jar   OK
+    testing: data/mods/xaerominimap-fabric-1.20.1-25.3.5.jar   OK
+No errors detected in compressed data of /opt/quesoland/migracion/quesoland-ensayo-2026-10-08.zip.
+ok_count=4670
+=== SHA ===
+9f4f1d0e608d98540efecfe251565705f138e96354a29ef23eb537586eaa63a7  /opt/quesoland/migracion/quesoland-ensayo-2026-10-08.zip
+=== LAG ===
+lag=0

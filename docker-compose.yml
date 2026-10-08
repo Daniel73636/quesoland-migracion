@@ -1,0 +1,65 @@
+services:
+  mc:
+    container_name: quesoland
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    image: itzg/minecraft-server:java17
+    ports:
+      - "25565:25565"
+      - "24454:24454/udp"
+    environment:
+      EULA: "TRUE"
+      TYPE: "FABRIC"
+      VERSION: "1.20.1"
+      FABRIC_LOADER_VERSION: "0.18.4"
+      MEMORY: "8G"
+      USE_AIKAR_FLAGS: "true"
+      ONLINE_MODE: "FALSE"
+      ENABLE_WHITELIST: "TRUE"
+      ENFORCE_WHITELIST: "TRUE"
+      ENFORCE_SECURE_PROFILE: "false"
+      MAX_PLAYERS: "15"
+      VIEW_DISTANCE: "6"
+      SIMULATION_DISTANCE: "4"
+      SYNC_CHUNK_WRITES: "false"
+      ENTITY_BROADCAST_RANGE_PERCENTAGE: "75"
+      MAX_CHAINED_NEIGHBOR_UPDATES: "100000"
+      ENABLE_RCON: "true"
+      UID: "1000"
+      GID: "1000"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    mem_limit: 10g
+
+    healthcheck:
+      test: ["CMD-SHELL", "mc-monitor status --host $$(ip -4 route show default | awk '/default/ {print $$3; exit}') --port 25565"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  backup:
+    container_name: quesoland-backup
+    image: itzg/mc-backup:latest
+    environment:
+      RCON_HOST: mc
+      RCON_PORT: "25575"
+      RCON_PASSWORD_FILE: /data/.rcon_password
+      BACKUP_INTERVAL: "6h"
+      PRUNE_BACKUPS_DAYS: "3"
+      INITIAL_DELAY: "1m"
+      SRC_DIR: "/data"
+      DEST_DIR: "/backups"
+      EXCLUDES: "*.jar,mods,logs,cache,*.log"
+      TAR_COMPRESS_METHOD: "zstd"
+      ZSTD_PARAMETERS: "-1 --threads=1"
+    volumes:
+      - ./data:/data:ro
+      - ./backups:/backups
+    depends_on:
+      - mc
+    restart: unless-stopped

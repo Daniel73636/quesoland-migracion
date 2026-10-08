@@ -1,0 +1,153 @@
+{
+  "zone": "America/Bogota",
+  "weekdayHours": 6,
+  "weekendHours": 8,
+  "lockoutHours": 12,
+  "exemptNames": [],
+  "players": {
+    "258fd0b2-76cc-3e6c-afc9-75f3e507e9aa": {
+      "name": "camilo11best",
+      "playedMillis": 21600918,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 1791482957197,
+      "sessionStart": 0,
+      "lastSeen": 1791439757197,
+      "lastJoin": 1791437848360
+    },
+    "1ecfd16e-62bc-3cee-9ad7-19b19e8d6153": {
+      "name": "MonkeyDPino",
+      "playedMillis": 18660694,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791436874408,
+      "lastJoin": 1791435906767
+    },
+    "946107ab-11d4-3ce8-8725-0e88db29edcd": {
+      "name": "Saintjhon",
+      "playedMillis": 9690008,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791436818659,
+      "lastJoin": 1791435914195
+    },
+    "c24c9751-e194-3c14-b51f-03efee2249a0": {
+      "name": "xpgchx",
+      "playedMillis": 3531120,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791408452811,
+      "lastJoin": 1791408435185
+    },
+    "0a4457cd-7485-30ac-80bc-f07f296ea120": {
+      "name": "Emma1803",
+      "playedMillis": 21600194,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 1791492051005,
+      "sessionStart": 0,
+      "lastSeen": 1791448851005,
+      "lastJoin": 1791446717958
+    },
+    "e505d7d9-57cf-3fc5-89ea-3fa7ab2dd032": {
+      "name": "thefenix74",
+      "playedMillis": 17968836,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791434114114,
+      "lastJoin": 1791428087884
+    },
+    "48dca365-3330-358d-9692-fd28697f179a": {
+      "name": "valdemir747",
+      "playedMillis": 5467059,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791287723086,
+      "lastJoin": 1791287693304
+    },
+    "9e749437-6437-3ba5-8f88-9e492d00d187": {
+      "name": "daviiid0",
+      "playedMillis": 322383,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791465544589,
+      "lastJoin": 1791465380905
+    },
+    "3cfb7fb9-75e7-3581-b121-347bfa57c9aa": {
+      "name": "RZFranCOL",
+      "playedMillis": 2931620,
+      "quotaMillis": 28800000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791243598909,
+      "lastJoin": 1791242006415
+    },
+    "85f8a7df-68b8-33aa-8f7e-18cdbc0fa1e8": {
+      "name": "Daniel_Montiel",
+      "playedMillis": 5255986,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791433825526,
+      "lastJoin": 1791428569540
+    },
+    "2c8b7971-5585-3390-bb52-91ad02a2f241": {
+      "name": "Batidorapro",
+      "playedMillis": 17487055,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791418959231,
+      "lastJoin": 1791416718612
+    },
+    "4330a476-0ff1-3cb4-8e47-49aaa1600159": {
+      "name": "OeeDuque",
+      "playedMillis": 11902484,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791407560814,
+      "lastJoin": 1791406221086
+    },
+    "cb38bac4-71af-3c35-8b25-d1adabd3a4c9": {
+      "name": "THEADMINISTRATO",
+      "playedMillis": 14599597,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791433507469,
+      "lastJoin": 1791427279916
+    },
+    "aa316f50-cf90-305c-aa83-a27a42e95a84": {
+      "name": "DavidYT137",
+      "playedMillis": 9423136,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791426340361,
+      "lastJoin": 1791425813090
+    },
+    "9728740d-ae8e-3799-a188-8d4281aa0062": {
+      "name": "Thecsu",
+      "playedMillis": 953011,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791379029590,
+      "lastJoin": 1791378080308
+    },
+    "47cacc24-52b5-395c-87d7-466530df618b": {
+      "name": "AlestCol",
+      "playedMillis": 13472221,
+      "quotaMillis": 21600000,
+      "lockoutUntil": 0,
+      "sessionStart": 0,
+      "lastSeen": 1791410977894,
+      "lastJoin": 1791405713619
+    }
+  }
+}
